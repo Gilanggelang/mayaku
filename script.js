@@ -4,20 +4,26 @@ const kata = document.querySelector(".content .kata")
 const button = document.querySelectorAll(".content button")
 const ctn = document.querySelector(".content")
 
-function clik (btn){
+function clik (btn)
+{
   btn.textContent == "Iya 🤗" ? img.src = "img/malu.gif" : img.src = "img/patahHati.gif" 
   button[0].style.display = "none"
   button[1].style.display = "none"
   ctn.style.height = "250px"
   ctn.style.width = "270px"
-  return btn.textContent == "Iya 🤗" ? kata.textContent = "😍 ni buat si comel 🍊" : kata.textContent = "😭😭😭😭😭😭"
-  
+
+	
+  return btn.textContent == function content(){
+  ctn.style.width = "300px"
+  ctn.style.height = "400px"
+  ctn.style.borderRadius = "5px"
+  kata.textContent = "bagus kalau baik-baik aja, jangan lupa jaga makan dan kesehatan ya. tidurnya dijaga😊"
 }
 function content(){
   ctn.style.width = "300px"
   ctn.style.height = "400px"
   ctn.style.borderRadius = "5px"
-  kata.textContent = "Hay, cuma mau ucapin, semangat ya 😊"
+  kata.textContent = "Hallo Maya Rofita gimana kabarnya?😊"
 }
 function pesanHilang(){
   const divpesan = document.querySelector("div.pesan")
